@@ -1,0 +1,130 @@
+/*=========== RESETS START ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+/*=========== RESETS END ========== */
+
+:root {
+  --pry-accent-color: #33073a;
+  --sec-accent-color: #060524;
+  --tet-accent-color: #0b096d;
+}
+
+body {
+  font-family: 'Montserrat', system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: var(--pry-accent-color);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.35em 0.75em;
+  gap: 3em;
+}
+
+header span {
+  font-weight: bold;
+}
+
+nav {
+  background-color: var(--tet-accent-color);
+}
+
+.navigation-links-list {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.navigation-links-list li {
+  list-style-type: none;
+}
+
+.navigation-links-list a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding-block: 0.75em;
+  font-weight: 700;
+  font-size: clamp(14px, 1rem + 1vw, 18px);
+}
+
+.navigation-links-list a.active {
+  background-color: var(--sec-accent-color);
+}
+
+main {
+  padding: 2em;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+main h1 {
+  font-size: clamp(16px, 1.15rem + 1vw, 22px);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-align: center;
+}
+
+.card-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  padding-block: 1em;
+  gap: 0.75em;
+}
+
+.card {
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #aaaaaa;
+}
+
+.card h2 {
+  background-color: var(--tet-accent-color);
+  color: #ffffff;
+  text-align: center;
+  padding-block: 0.5em;
+  font-size: clamp(12px, 1rem + 1vw, 18px);
+}
+
+.learning-activities-card ul {
+  padding: 0.75em 0.5em;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--pry-accent-color);
+  color: #ffffff;
+  margin-top: auto;
+  padding-block: 3em;
+  font-size: clamp(16px, 1rem + 1vw, 22px);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  font-weight: 700;
+}
+
+#lastModified {
+  color: rgb(255, 200, 200);
+  font-size: clamp(10px, 0.75rem + 1vw, 16px);
+}
