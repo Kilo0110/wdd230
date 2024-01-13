@@ -21,7 +21,7 @@
     --secondary-color
   ); /* paragraph text on a white background */
   --paragraph-color-on-color: var(
-    --accent1-color
+    --secondary-color
   ); /* paragraph text on a colored background */
   --paragraph-background-color: var(--accent1-color);
   --nav-link-color: var(--accent3-color);
@@ -35,7 +35,7 @@
 body {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 4em;
+  padding: 2em;
   font-size: 18px;
   text-align: center;
 }
@@ -74,6 +74,7 @@ p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
   padding: 1em;
+  font-size: clamp(12px, 12px + 1vw, 18px);
 }
 .colors {
   width: 100%;
@@ -104,7 +105,7 @@ p {
   background-color: var(--accent2-color);
 }
 
-p.colored {
+.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
 }
@@ -115,84 +116,9 @@ ul.lists {
   padding: 1em 0.5em;
 }
 
-img.page-img {
+img {
   width: 100%;
   height: min-content;
-  max-height: 500px;
+  max-width: 700px;
   object-fit: cover;
-}
-
-nav {
-  background-color: var(--nav-background-color);
-  line-height: 3em;
-  text-align: center;
-  font-size: 1.2em;
-}
-nav {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-nav a {
-  padding: 1em;
-  min-width: 120px;
-  text-decoration: none;
-  padding: 10px;
-}
-nav a:link,
-nav a:visited {
-  color: var(--nav-link-color);
-}
-nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
-}
-
-.sitemap {
-  display: grid;
-  justify-content: center;
-
-  grid-template-columns: repeat(6, 15%);
-  grid-template-rows: 3em 1.5em 1.5em 3em;
-  grid-template-areas:
-    '. . home home . .'
-    '. . . top . .'
-    '. left left right right .'
-    'page2 page2 . . page3 page3';
-}
-.sitemap > div {
-  text-align: center;
-}
-.sm-home {
-  grid-area: home;
-  background-color: #ccc;
-  line-height: 3em;
-}
-.sm-page2 {
-  grid-area: page2;
-  background-color: #ccc;
-  line-height: 3em;
-}
-.sm-page3 {
-  grid-area: page3;
-  background-color: #ccc;
-  line-height: 3em;
-}
-
-.top {
-  grid-area: top;
-  border-left: 1px solid;
-}
-
-.left {
-  grid-area: left;
-  border-top: 1px solid;
-  border-left: 1px solid;
-}
-
-.right {
-  grid-area: right;
-  border-top: 1px solid;
-  border-right: 1px solid;
 }
