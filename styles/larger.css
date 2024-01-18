@@ -2,6 +2,7 @@
   .navigation-links-list {
     flex-direction: row;
     justify-content: space-between;
+    max-height: unset;
   }
 
   main {
@@ -14,6 +15,10 @@
 
   .navigation-links-list a {
     padding: 1em 0;
+  }
+
+  .hamburger-btn {
+    display: none;
   }
 
   .card-container {

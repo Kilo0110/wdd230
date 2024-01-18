@@ -45,6 +45,8 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  max-height: 0;
+  transition: all 0.3s ease;
 }
 
 .navigation-links-list li {
@@ -63,6 +65,27 @@ nav {
 
 .navigation-links-list a.active {
   background-color: var(--sec-accent-color);
+}
+
+.hamburger-btn {
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+.hamburger-btn::after {
+  content: '\2630';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hamburger-btn.open::after {
+  content: '❌';
+}
+
+.hamburger-btn.open ~ nav > .navigation-links-list {
+  max-height: 100%;
 }
 
 main {
