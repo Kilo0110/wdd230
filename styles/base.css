@@ -37,6 +37,31 @@ header span {
   font-weight: bold;
 }
 
+.theme-mode-toggle {
+  position: relative;
+  width: 40px;
+  aspect-ratio: 2 / 1;
+  border-radius: 10px;
+  border: none;
+}
+
+.theme-mode-toggle::after {
+  content: '🌞';
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.theme-mode-toggle:not(.dark)::after {
+  left: 0;
+}
+
+.theme-mode-toggle.dark::after {
+  content: '🌝';
+  right: 0;
+}
+
 nav {
   background-color: var(--tet-accent-color);
 }
