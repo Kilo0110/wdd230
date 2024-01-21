@@ -1,0 +1,25 @@
+@media screen and (min-width: 1000px) {
+  .main-navigation__links-container {
+    /* Reset the styling to the initial */
+    position: unset;
+    min-height: unset;
+    background-color: transparent;
+    flex-direction: row;
+    padding: 0;
+    max-width: none;
+    box-shadow: none;
+  }
+
+  .main-navigation__link {
+    font-size: clamp(12px, 14px + 1vw, 16px);
+    padding: 0.5em 1em;
+  }
+
+  .main-navigation__link span {
+    display: none;
+  }
+
+  .hamburger-btn {
+    display: none;
+  }
+}

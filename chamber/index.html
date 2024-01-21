@@ -43,6 +43,11 @@
     rel="stylesheet"
     href="./styles/larger.css"
   >
+  <link
+    rel="icon"
+    href="favicon.ico"
+    type="image/x-icon"
+  >
   <title>Lagos Chamber of Commerce</title>
 </head>
 
@@ -57,21 +62,33 @@
         <li class="main-navigation__link-item"><a
             href=""
             class="main-navigation__link"
-          >Link 1</a></li>
+          >Link 1
+            <span>&#8594</span>
+          </a></li>
         <li class="main-navigation__link-item"><a
             href=""
             class="main-navigation__link"
-          >Link 2</a></li>
+          >Link 2
+            <span>&#8594</span>
+          </a></li>
         <li class="main-navigation__link-item"><a
             href=""
             class="main-navigation__link"
-          >Link 3</a></li>
+          >Link 3
+            <span>&#8594</span>
+          </a></li>
         <li class="main-navigation__link-item"><a
             href=""
             class="main-navigation__link"
-          >Link 4</a></li>
+          >Link 4
+            <span>&#8594</span>
+          </a></li>
       </ul>
-      <button class="hamburger-btn"></button>
+      <button class="hamburger-btn">
+        <div class="hamburger-btn__line"></div>
+        <div class="hamburger-btn__line"></div>
+        <div class="hamburger-btn__line"></div>
+      </button>
     </nav>
   </header>
 
@@ -91,6 +108,7 @@
             height="100%"
             class="event__img"
           >
+          <h3 class="event__name">Lorem, ipsum dolor.</h3>
           <p class="event__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet officiis dicta
             voluptatem ad quasi
             consequatur laboriosam natus fugiat doloremque animi impedit ex quibusdam, ipsa voluptate vel illo iste
@@ -104,6 +122,7 @@
             height="100%"
             class="event__img"
           >
+          <h3 class="event__name">Lorem, ipsum dolor.</h3>
           <p class="event__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet officiis dicta
             voluptatem ad quasi
             consequatur laboriosam natus fugiat doloremque animi impedit ex quibusdam, ipsa voluptate vel illo iste
@@ -111,7 +130,66 @@
         </div>
       </div>
     </section>
+    <section class="weather-section">
+      Weather
+    </section>
+    <section class="advertisement-section">
+      <h2>Spotlight</h2>
+      <div class="advertisement-container">
+        <div class="advertisement">
+          <img
+            src=""
+            alt=""
+            class="advertisement__img"
+          >
+          <h3 class="advertisement__title">Advertisement Title</h3>
+          <p class="advertisement__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, unde incidunt?
+            Aspernatur aliquid quia voluptates porro suscipit sunt molestias nostrum?</p>
+        </div>
+        <div class="advertisement">
+          <img
+            src=""
+            alt=""
+            class="advertisement__img"
+          >
+          <h3 class="advertisement__title">Advertisement Title</h3>
+          <p class="advertisement__text">Et, ab ducimus rem nihil id maxime minima quisquam facere expedita velit aut
+            distinctio, porro ex. Reiciendis amet quo nulla!</p>
+        </div>
+        <div class="advertisement">
+          <img
+            src=""
+            alt=""
+            class="advertisement__img"
+          >
+          <h3 class="advertisement__title">Advertisement Title</h3>
+          <p class="advertisement__text">Consequatur, reiciendis dicta quas distinctio nobis alias voluptatum impedit?
+            Nulla ipsam sit quidem explicabo ratione quia odio assumenda qui laboriosam.</p>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <ul class="contact-information">
+      <li><span class="contact-type">Address: </span><span class="contact-info">178 Mars Road, Planet Jupiter, Milky
+          Way</span></li>
+      <li><span class="contact-type">Phone: </span><span class="contact-info">+1234567890</span></li>
+      <li><span class="contact-type">Email: </span><span class="contact-info">myemail@email.com</span></li>
+    </ul>
+    <ul class="developer-information">
+      <li><span class="information-type">Full Name: </span><span class="information-detail">Ahaka "KamCy" Divine</span>
+      </li>
+      <li><span class="information-type">Project Details: </span><span class="information-detail">WDD 230 Chamber of
+          Commerce project</span></li>
+      <li><span class="information-type">Last Modification: </span><span
+          id="lastModified"
+          class="information-detail"
+        ></span></li>
+    </ul>
+  </footer>
+
+  <script src="./scripts/script.js"></script>
 </body>
 
 </html>
