@@ -146,6 +146,29 @@ main h1 {
   text-align: center;
 }
 
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text-overlay {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  font-size: clamp(13px, 15px + 1vw, 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
 .card-container {
   display: grid;
   width: 100%;
@@ -169,7 +192,7 @@ main h1 {
   font-size: clamp(12px, 1rem + 1vw, 18px);
 }
 
-.learning-activities-card ul {
+.card ul {
   padding: 0.75em 0.5em;
   list-style-type: none;
   display: flex;
@@ -187,6 +210,17 @@ main h1 {
   margin-left: 0.5em;
 }
 
+.information-card ul {
+  justify-content: center;
+  align-items: center;
+}
+
+.maps {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 footer {
   text-align: center;
   background-color: var(--pry-accent-color);
@@ -201,6 +235,6 @@ footer {
 }
 
 #lastModified {
-  color: rgb(255, 200, 200);
+  color: rgb(255, 244, 244);
   font-size: clamp(10px, 0.75rem + 1vw, 16px);
 }

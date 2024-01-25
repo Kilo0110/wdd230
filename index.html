@@ -67,7 +67,7 @@
 <body>
   <header>
     <img
-      src="./images/profile_picture.jpg"
+      src="./images/profile_picture.webp"
       alt="Profile image"
       width="75"
       height="100"
@@ -103,6 +103,25 @@
   </nav>
   <h1>WDD230: Web Frontend Development</h1>
   <main>
+    <div class="hero">
+      <picture>
+        <source
+          media="(max-width: 400px)"
+          srcset="./week03/images/hero-small.webp"
+        >
+        <source
+          media="(max-width: 960px)"
+          srcset="./week03/images/hero-medium.webp"
+        >
+        <img
+          src="./week03/images/hero-large.webp"
+          alt="Rexburg Temple"
+          width="1280"
+          height="800"
+        >
+      </picture>
+      <div class="hero-text-overlay">Rexburg Temple</div>
+    </div>
     <div class="card-container">
       <section class="card learning-activities-card">
         <h2>Learning Activities</h2>
@@ -113,17 +132,32 @@
             <a href="https://codepen.io/Kilo0110/pen/qBvrMdq">Week 02 Responsive Hamburger Menu</a>
             <a href="/week02/bom.html">Week 02 Book of Mormon Top 10</a>
           </li>
-          <li>Week 03:</li>
+          <li>Week 03: <a href="./week03/images/landscape.webp">WebP</a> | <a href="./week03/lazyload.html">Lazyload
+              activity</a> | <a href="./week03/bom.html">Updated BOM</a> | <a
+              href="./week03/responsive-images.html">Responsive Images</a> </li>
           <li>Week 04:</li>
           <li>Week 05:</li>
           <li>Week 06:</li>
         </ul>
       </section>
-      <section class="card">
+      <section class="card information-card">
         <h2>Information</h2>
+        <ul>
+          <li>Visit Count: <span id="visitCount"></span></li>
+        </ul>
       </section>
     </div>
   </main>
+  <iframe
+    class="maps"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63423.54420519171!2d3.202300996002367!3d6.525281577527898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b857601dc25db%3A0x1ee256a65b04761c!2sIjegun%2C%20Lagos%20102213%2C%20Lagos!5e0!3m2!1sen!2sng!4v1706216700812!5m2!1sen!2sng"
+    width="600"
+    height="450"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+  ></iframe>
   <footer>
     <p>&copy;<span id="currentYear"></span> Ahaka "KamCy" Divine. Lagos, Nigeria. 🇳🇬</p>
     <p id="lastModified"></p>
@@ -132,6 +166,7 @@
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/theme.js"></script>
   <script src="scripts/getDates.js"></script>
+  <script src="scripts/visitCount.js"></script>
 </body>
 
 </html>
