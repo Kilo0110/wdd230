@@ -22,4 +22,18 @@
   .hamburger-btn {
     display: none;
   }
+
+  .discover-page-container {
+    grid-template-columns: 350px 1fr;
+  }
+
+  .information-sidebar__card {
+    max-width: 300px;
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 5em;
+  }
 }

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <meta
+    name="description"
+    content="Course assignment portal for WDD 230 - Web Frontend Development. Developed by Divine Ahaka"
+  >
+  <meta
+    name="author"
+    content="Ahaka 'KamCy' Divine"
+  >
+  <meta
+    property="og:title"
+    content="Lagos Chamber of Commerce"
+  />
+  <meta
+    property="og:type"
+    content="website"
+  />
+  <meta
+    property="og:url"
+    content="https://kilo0110.github.io/wdd230/"
+  />
+  <meta
+    property="og:image"
+    content="https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-67ruAEYmp4c"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+  >
+  <link
+    rel="stylesheet"
+    href="./styles/base.css"
+  >
+  <link
+    rel="stylesheet"
+    href="./styles/larger.css"
+  >
+  <link
+    rel="icon"
+    href="favicon.ico"
+    type="image/x-icon"
+  >
+  <title>Lagos Chamber of Commerce</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="main-navigation">
+      <a
+        href="/"
+        class="main-navigation__logo"
+      >Logo</a>
+      <ul class="main-navigation__links-container">
+        <li class="main-navigation__link-item"><a
+            href=""
+            class="main-navigation__link"
+          >Link 1
+            <span>&#8594</span>
+          </a></li>
+        <li class="main-navigation__link-item"><a
+            href=""
+            class="main-navigation__link"
+          >Link 2
+            <span>&#8594</span>
+          </a></li>
+        <li class="main-navigation__link-item"><a
+            href=""
+            class="main-navigation__link"
+          >Link 3
+            <span>&#8594</span>
+          </a></li>
+        <li class="main-navigation__link-item"><a
+            href=""
+            class="main-navigation__link"
+          >Link 4
+            <span>&#8594</span>
+          </a></li>
+      </ul>
+      <button class="hamburger-btn">
+        <div class="hamburger-btn__line"></div>
+        <div class="hamburger-btn__line"></div>
+        <div class="hamburger-btn__line"></div>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <div class="discover-page-container">
+      <aside class="information-sidebar">
+        <div class="information-sidebar__card population-card">
+          <h2>Population</h2>
+          <p>~21M <span>people</span></p>
+          <i class="arrow-icon">⯅</i>
+        </div>
+        <div class="information-sidebar__card economy-card">
+          <h2>GDP Growth Rate</h2>
+          <p>~10%</p>
+          <i class="arrow-icon">⯅</i>
+        </div>
+        <div class="information-sidebar__card business-card">
+          <h2>No. of Businesses</h2>
+          <p>~3M <span>SMEs</span></p>
+          <i class="arrow-icon">⯅</i>
+        </div>
+        <div class="information-sidebar__card visit-card">
+          <p id="visitMessage"></p>
+        </div>
+      </aside>
+      <section class="photo-gallery-container">
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset=""
+          >
+
+          <img
+            src=""
+            alt=""
+            loading="lazy"
+            width="700"
+            width="350"
+          >
+        </picture>
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset=""
+          >
+
+          <img
+            src=""
+            alt=""
+            loading="lazy"
+            width="700"
+            width="350"
+          >
+        </picture>
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset=""
+          >
+
+          <img
+            src=""
+            alt=""
+            loading="lazy"
+            width="700"
+            width="350"
+          >
+        </picture>
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset=""
+          >
+
+          <img
+            src=""
+            alt=""
+            loading="lazy"
+            width="700"
+            width="350"
+          >
+        </picture>
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset=""
+          >
+
+          <img
+            src=""
+            alt=""
+            loading="lazy"
+            width="700"
+            width="350"
+          >
+        </picture>
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset=""
+          >
+
+          <img
+            src=""
+            alt=""
+            loading="lazy"
+            width="700"
+            width="350"
+          >
+        </picture>
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset=""
+          >
+
+          <img
+            src=""
+            alt=""
+            loading="lazy"
+            width="700"
+            width="350"
+          >
+        </picture>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <ul class="contact-information">
+      <li><span class="contact-type">Address: </span><span class="contact-info">178 Mars Road, Planet Jupiter, Milky
+          Way</span></li>
+      <li><span class="contact-type">Phone: </span><span class="contact-info">+1234567890</span></li>
+      <li><span class="contact-type">Email: </span><span class="contact-info">myemail@email.com</span></li>
+    </ul>
+    <ul class="developer-information">
+      <li><span class="information-type">Full Name: </span><span class="information-detail">Ahaka "KamCy" Divine</span>
+      </li>
+      <li><span class="information-type">Project Details: </span><span class="information-detail">WDD 230 Chamber of
+          Commerce project</span></li>
+      <li><span class="information-type">Last Modification: </span><span
+          id="lastModified"
+          class="information-detail"
+        ></span></li>
+    </ul>
+  </footer>
+
+  <script src="./scripts/script.js"></script>
+  <script src="./scripts/visitMessage.js"></script>
+</body>
+
+</html>
