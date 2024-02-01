@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <meta
+    name="description"
+    content="Form assignment for WDD 230 - Web Frontend Development. Developed by Divine Ahaka"
+  >
+  <meta
+    name="author"
+    content="Ahaka 'KamCy' Divine"
+  >
+  <meta
+    property="og:title"
+    content="Ahaka 'KamCy' Divine - WDD 230 - Web Frontend Development"
+  />
+  <meta
+    property="og:type"
+    content="website"
+  />
+  <meta
+    property="og:url"
+    content="https://kilo0110.github.io/wdd230/"
+  />
+  <meta
+    property="og:image"
+    content="https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-67ruAEYmp4c"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+  >
+  <link
+    rel="stylesheet"
+    href="./styles/base.css"
+  >
+  <link
+    rel="stylesheet"
+    href="./styles/larger.css"
+  >
+  <link
+    rel="stylesheet"
+    href="./styles/form.css"
+  >
+  <link
+    rel="icon"
+    href="favicon.ico"
+    type="image/x-icon"
+  >
+  <title>WDD230 Web Frontend Development || Form</title>
+</head>
+
+<body>
+  <header>
+    <img
+      src="./images/profile_picture.webp"
+      alt="Profile image"
+      width="75"
+      height="100"
+    >
+    <span>Ahaka "KamCy" Divine</span>
+    <button
+      class="theme-mode-toggle"
+      aria-label="Theme mode toggle"
+    ></button>
+  </header>
+  <button
+    class="hamburger-btn"
+    aria-label="navigation menu toggle"
+  ></button>
+  <nav>
+    <ul class="navigation-links-list">
+      <li>
+        <a
+          href="/"
+          class="active"
+        >Home</a>
+      </li>
+      <li>
+        <a href="/chamber/index.html">Chamber</a>
+      </li>
+      <li>
+        <a href="./week01/chamber-site-plan.html">Site Plan</a>
+      </li>
+      <li>
+        <a href="/">Form</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <form
+      action="record.html"
+      method="get"
+    >
+      <div class="input-container">
+        <label for="username">Username <span>*</span></label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          required
+        >
+      </div>
+      <div class="input-container">
+        <label for="password">Password <span>*</span></label>
+        <input
+          type="password"
+          pattern="[a-zA-Z0-9]"
+          minlength="8"
+          id="password"
+          name="password"
+          required
+        >
+        <span class="error">must be at least 8 characters of alphanumeric
+          characters only</span>
+      </div>
+      <div class="input-container">
+        <label for="confirm_password">Confirm Password <span>*</span></label>
+        <input
+          type="password"
+          pattern="[a-zA-Z0-9]"
+          minlength="8"
+          id="confirm_password"
+          name="confirm_password"
+          required
+        >
+        <span class="error">must be at least 8 characters of alphanumeric
+          characters only</span>
+      </div>
+      <div class="input-container">
+        <label for="email">Email <span>*</span></label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+        >
+      </div>
+      <div class="input-container">
+        <label for="rating">Page rating</label>
+        <input
+          type="range"
+          id="rating"
+          name="rating"
+          required
+          max="10"
+          min="1"
+          step="1"
+          value="1"
+          list="rangevalues"
+        >
+        <datalist id="rangevalues">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </datalist>
+        <p id="rangeValue"></p>
+      </div>
+      <button
+        type="submit"
+        class="submit-btn"
+      >Sign Up</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy;<span id="currentYear"></span> Ahaka "KamCy" Divine. Lagos, Nigeria. 🇳🇬</p>
+    <p id="lastModified"></p>
+  </footer>
+
+  <script src="./scripts/form.js"></script>
+</body>
+
+</html>
