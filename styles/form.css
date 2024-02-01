@@ -1,3 +1,10 @@
+:root {
+  --shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  --gradient-start: rgba(11, 13, 17, 0.7);
+  --gradient-end: rgba(250, 212, 212, 0.1);
+  --theme-light: #fff;
+}
+
 main {
   background: url('../week03/images/landscape.webp') top center / cover;
   margin: unset;
@@ -11,14 +18,14 @@ main {
 form {
   background: linear-gradient(
     to top right,
-    rgba(11, 13, 17, 0.7),
-    rgba(250, 212, 212, 0.1)
+    var(--gradient-start),
+    var(--gradient-end)
   );
   border: 1px solid rgba(255, 255, 255, 0.637);
   backdrop-filter: blur(3px);
   padding: 2em;
   border-radius: 0.75em;
-  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--shadow);
 
   display: flex;
   flex-direction: column;
@@ -39,18 +46,18 @@ form {
   border: none;
   outline: none;
   border-radius: 0.5em;
-  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.151);
+  box-shadow: var(--shadow);
   background-color: #ddd;
   transition: background-color 0.3s ease;
 }
 
 .input-container input:focus {
-  background-color: #fff;
+  background-color: var(--theme-light);
 }
 
 .input-container label {
   font-weight: bold;
-  color: #fff;
+  color: var(--theme-light);
 }
 
 .input-container label span {
@@ -66,13 +73,13 @@ form {
 
 #rangeValue {
   font-size: 2rem;
-  color: #fff;
+  color: var(--theme-light);
 }
 
 #rangevalues {
   display: flex;
   justify-content: space-between;
-  color: #fff;
+  color: var(--theme-light);
 }
 
 .submit-btn {
