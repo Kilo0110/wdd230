@@ -207,7 +207,7 @@ body {
 }
 
 .event__img {
-  aspect-ratio: 1;
+  aspect-ratio: 1 / 1;
   max-width: 200px;
 }
 
@@ -251,7 +251,7 @@ body {
 }
 
 .advertisement__img {
-  aspect-ratio: 1;
+  aspect-ratio: 1 / 1;
   max-width: 150px;
 }
 
@@ -286,7 +286,7 @@ body {
 
   width: 100%;
   max-width: 220px;
-  aspect-ratio: 1;
+  aspect-ratio: 1 / 1;
   background-color: var(--card-bg);
   display: flex;
   flex-direction: column;
