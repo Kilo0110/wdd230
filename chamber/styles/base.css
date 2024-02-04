@@ -1,6 +1,6 @@
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #0db767;
+  --primary-color: #067240;
   --secondary-color: #60190c;
   --accent1-color: #8f6910;
   --accent2-color: #073768;
@@ -35,6 +35,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .header {
@@ -56,6 +57,7 @@ body {
 
 .main-navigation__logo {
   color: var(--accent3-color);
+  font-weight: bold;
 }
 
 .main-navigation__links-container {
@@ -135,7 +137,8 @@ body {
 }
 
 .main {
-  overflow: hidden;
+  overflow-x: hidden;
+  max-width: 100vw;
   min-height: 100vh;
 }
 
@@ -166,6 +169,7 @@ body {
   border-radius: 2em;
   cursor: pointer;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .hero-call-to-action:hover {
@@ -342,6 +346,128 @@ body {
   z-index: 5;
   background-color: rgba(0, 0, 0, 0);
 }
+
+/* =================JOIN PAGE STYLES ===================== */
+.form-page-container {
+  background: url('../images/lekki.webp') top center / cover, #555;
+  background-blend-mode: overlay;
+  margin: unset;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding-block: 2em;
+}
+
+form {
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.877),
+    rgba(255, 255, 255, 0.151)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.637);
+  backdrop-filter: blur(3px);
+  padding: 2em;
+  border-radius: 0.75em;
+  box-shadow: var(--shadow);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+  max-width: 500px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35em;
+}
+
+.input-container input,
+.input-container textarea {
+  padding: 0.75em 1em;
+  border: none;
+  outline: none;
+  border-radius: 0.5em;
+  box-shadow: var(--shadow);
+  background-color: #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.input-container input:focus,
+.input-container textarea:focus {
+  background-color: var(--accent3-color);
+}
+
+.input-container label {
+  font-weight: bold;
+  color: #111;
+  display: flex;
+  align-items: center;
+  gap: 0.35em;
+}
+
+.input-container label span {
+  color: rgb(51, 2, 2);
+}
+
+.input-container .error {
+  color: rgb(255, 231, 231);
+  font-weight: bold;
+  font-size: 12px;
+  display: none;
+}
+
+#rangeValue {
+  font-size: 2rem;
+  color: var(--theme-light);
+}
+
+#rangevalues {
+  display: flex;
+  justify-content: space-between;
+  color: var(--theme-light);
+  font-weight: bold;
+}
+
+.submit-btn {
+  padding: 0.5em 0.75em;
+  background-color: var(--accent1-color);
+  color: var(--accent3-color);
+  font-weight: bold;
+  border: none;
+  border-radius: 0.35em;
+}
+
+/* ===================END OF JOIN PAGE STYLES ======================= */
+
+/* =================THANKYOU PAGE STYLES ===================== */
+.thankyou-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 0.5em;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  padding-block: 1em;
+}
+
+.confetti {
+  font-size: clamp(25px, 25px + 1vw, 50px);
+}
+
+.thankyou-text {
+  font-size: clamp(25px, 25px + 1vw, 50px);
+  max-width: 25ch;
+  text-align: center;
+  margin: 0;
+}
+
+/* ===================END OF THANKYOU PAGE STYLES ======================= */
 
 .footer {
   background-color: var(--accent2-color);
