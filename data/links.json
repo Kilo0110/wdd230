@@ -1,0 +1,56 @@
+{
+  "weeks": [
+    {
+      "week": "Week 01",
+      "links": [
+        {
+          "url": "week01/holygrail.html",
+          "title": "HG Layout"
+        },
+        {
+          "url": "week01/media-query.html",
+          "title": "mQueries"
+        }
+      ]
+    },
+    {
+      "week": "Week 02",
+      "links": [
+        {
+          "url": "week02/bom.html",
+          "title": "BOM Design"
+        },
+        {
+          "url": "week02/design.html",
+          "title": "Design"
+        }
+      ]
+    },
+    {
+      "week": "Week 03",
+      "links": [
+        {
+          "url": "week03/bom.html",
+          "title": "BOM Updated Design"
+        },
+        {
+          "url": "week03/lazyload.html",
+          "title": "Lazyload"
+        },
+        {
+          "url": "week03/responsive-images.html",
+          "title": "Responsive Images"
+        }
+      ]
+    },
+    {
+      "week": "Week 04",
+      "links": [
+        {
+          "url": "week04/tablebuild.html",
+          "title": "Table Build"
+        }
+      ]
+    }
+  ]
+}

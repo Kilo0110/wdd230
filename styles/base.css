@@ -210,6 +210,19 @@ main h1 {
   margin-left: 0.5em;
 }
 
+.temp-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  text-align: center;
+}
+
+#remark {
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
 .information-card ul {
   justify-content: center;
   align-items: center;
