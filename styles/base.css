@@ -201,13 +201,14 @@ main h1 {
   font-weight: 600;
 }
 
-.learning-activities-card li:nth-of-type(2) a {
-  border-inline: 1px solid black;
+.learning-activities-card li a:first-of-type {
   padding-inline: 0.5em;
 }
 
-.learning-activities-card li:nth-of-type(2) a:not(:first-of-type) {
-  margin-left: 0.5em;
+.learning-activities-card li a:not(:first-of-type) {
+  border-left: 1px solid black;
+  padding-inline: 0.5em;
+  text-align: center;
 }
 
 .temp-info-container {

@@ -22,7 +22,7 @@ function displayLinks(data) {
     links.forEach((link) => {
       const linkAnchorElement = document.createElement('a');
       linkAnchorElement.setAttribute('href', link.url);
-      linkAnchorElement.textContent = ` ${link.title} |`;
+      linkAnchorElement.textContent = `${link.title}`;
       weekListItem.appendChild(linkAnchorElement);
       learningActivitiesContainer.appendChild(weekListItem);
     });
