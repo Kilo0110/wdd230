@@ -144,7 +144,9 @@ body {
 
 .hero-section {
   min-height: 40vh;
-  background: #222;
+  background: url('../images/aerial_view_lagos.webp') top center / cover, #444;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -221,7 +223,9 @@ body {
 
 .weather-section {
   min-height: 60vh;
-  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .advertisement-section {
@@ -252,7 +256,8 @@ body {
 
 .advertisement__img {
   aspect-ratio: 1 / 1;
-  max-width: 150px;
+  max-width: 250px;
+  object-fit: cover;
 }
 
 .advertisement__title {
@@ -468,6 +473,46 @@ form {
 }
 
 /* ===================END OF THANKYOU PAGE STYLES ======================= */
+
+/* =================DIRECTORY PAGE STYLES ===================== */
+
+.directory-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.company-card-container {
+  display: grid;
+  width: 90%;
+  justify-items: center;
+  max-width: 600px;
+}
+
+.company-card {
+  text-align: center;
+  font-size: smaller;
+  padding-inline: 2em;
+  border: 1px solid var(--accent1-color);
+  border-radius: 1em;
+  padding-bottom: 1em;
+}
+
+.company-card img {
+  width: 100px;
+  aspect-ratio: 1 / 1;
+}
+
+.company-card table {
+  width: 100%;
+}
+
+.company-card thead td {
+  font-weight: bold;
+}
+
+/* ===================END OF DIRECTORY PAGE STYLES ======================= */
 
 .footer {
   background-color: var(--accent2-color);
