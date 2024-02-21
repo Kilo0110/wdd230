@@ -1,4 +1,10 @@
 @media screen and (min-width: 1000px) {
+  .banner {
+    flex-direction: row;
+    width: 100vw;
+    padding-bottom: 0;
+  }
+
   .main-navigation__links-container {
     /* Reset the styling to the initial */
     position: unset;
@@ -23,6 +29,10 @@
 
   .hamburger-btn {
     display: none;
+  }
+
+  .advertisement-container {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .discover-page-container {

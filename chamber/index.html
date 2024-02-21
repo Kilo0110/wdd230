@@ -31,12 +31,6 @@
     property="og:image"
     content="https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-67ruAEYmp4c"
   >
-  <script
-    src="https://static.elfsight.com/platform/platform.js"
-    data-use-service-core
-    defer
-  ></script>
-
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -58,6 +52,12 @@
 </head>
 
 <body>
+  <div class="banner">
+    <p>Hi there! Join us for our meet and greet every Wednesday at 7:00PM.</p>
+    <button id="close-banner-toggle">
+      ❌
+    </button>
+  </div>
   <header class="header">
     <nav class="main-navigation">
       <a
@@ -140,44 +140,22 @@
     </section>
     <section class="weather-section">
       <h2>Weather section</h2>
-      <iframe
-        src="https://3f106457c1b74c12b429eafa3723b8a6.elf.site"
-        height="400"
-      ></iframe>
+      <p>The current temperature in Lagos, Nigeria is <span id="current-temp"></span></p>
+      <figure>
+        <img
+          src="/"
+          alt=""
+          id="weather-icon"
+        >
+        <figcaption></figcaption>
+      </figure>
+      <div class="three-day-forecast-container">
+      </div>
     </section>
     <section class="advertisement-section">
       <h2>Spotlight</h2>
       <div class="advertisement-container">
-        <div class="advertisement">
-          <img
-            src="./images/lekki_conservation_centre_small.webp"
-            alt="Image of Lekki Conservation Centre"
-            class="advertisement__img"
-          >
-          <h3 class="advertisement__title">Advertisement Title</h3>
-          <p class="advertisement__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, unde incidunt?
-            Aspernatur aliquid quia voluptates porro suscipit sunt molestias nostrum?</p>
-        </div>
-        <div class="advertisement">
-          <img
-            src="./images/1004_apartment_small.webp"
-            alt="Image of 1004 apartments, Lagos"
-            class="advertisement__img"
-          >
-          <h3 class="advertisement__title">Advertisement Title</h3>
-          <p class="advertisement__text">Et, ab ducimus rem nihil id maxime minima quisquam facere expedita velit aut
-            distinctio, porro ex. Reiciendis amet quo nulla!</p>
-        </div>
-        <div class="advertisement">
-          <img
-            src="./images/skaterollers_small.webp"
-            alt="Image of roller skaters in Lagos"
-            class="advertisement__img"
-          >
-          <h3 class="advertisement__title">Advertisement Title</h3>
-          <p class="advertisement__text">Consequatur, reiciendis dicta quas distinctio nobis alias voluptatum impedit?
-            Nulla ipsam sit quidem explicabo ratione quia odio assumenda qui laboriosam.</p>
-        </div>
+
       </div>
     </section>
   </main>
@@ -202,6 +180,8 @@
   </footer>
 
   <script src="./scripts/script.js"></script>
+  <script src="./scripts/home.js"></script>
+  <script src="./scripts/weather.js"></script>
 </body>
 
 </html>

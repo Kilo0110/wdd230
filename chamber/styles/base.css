@@ -38,6 +38,30 @@ body {
   margin: 0;
 }
 
+.banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  max-width: 100vw;
+  background-color: red;
+  color: var(--accent3-color);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  /* padding-inline: 3em; */
+  text-align: center;
+  padding-bottom: 1em;
+  z-index: 1000;
+}
+
+#close-banner-toggle {
+  border: none;
+  cursor: pointer;
+}
+
 .header {
   overflow: hidden;
 }
@@ -224,8 +248,26 @@ body {
 .weather-section {
   min-height: 60vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.three-day-forecast-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: scroll;
+  max-width: 600px;
+  white-space: nowrap;
+  text-align: center;
 }
 
 .advertisement-section {
@@ -240,10 +282,8 @@ body {
 }
 
 .advertisement-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  justify-items: center;
   gap: 2em;
 }
 
@@ -256,12 +296,12 @@ body {
 
 .advertisement__img {
   aspect-ratio: 1 / 1;
-  max-width: 250px;
+  width: 250px;
   object-fit: cover;
 }
 
 .advertisement__title {
-  font-size: clamp(14px, 14px + 1vw, 20px);
+  font-size: clamp(14px, 14px + 1vw, 18px);
 }
 
 .advertisement__text {
