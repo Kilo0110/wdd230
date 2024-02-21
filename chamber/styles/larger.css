@@ -57,44 +57,42 @@
     max-width: 300px;
   }
 
-  .company-table-container table {
-    border: 1px solid red;
-    border-collapse: collapse;
-    margin: 0;
-    padding: 0;
-    width: auto;
-    table-layout: fixed;
+  .company-card-container {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: dense;
+    width: 1200px;
+    max-width: 90%;
+    align-content: center;
   }
 
-  .company-table-container table caption {
+  table caption {
     font-size: 1.5em;
-    margin: 0.5em 0 0.75em;
   }
-
-  .company-table-container table thead {
-    clip: unset;
-    position: initial;
-    width: 100%;
+  table thead {
+    display: table-header-group;
   }
-
-  .company-table-container table tr {
-    background-color: #f8f8f8;
-    border: 1px solid #ddd;
-    padding: 0.35em;
+  table tr {
+    display: table-row;
+    border: 0;
   }
-
-  .company-table-container table th,
-  .company-table-container table td {
-    padding: 0.625em;
+  table th,
+  table td {
     text-align: center;
-    display: initial;
-    width: 100%;
   }
-
-  .company-table-container table th {
-    font-size: 0.85em;
-    letter-spacing: 0.1em;
+  table th {
+    font-size: 1em;
     text-transform: uppercase;
+  }
+  table td {
+    font-size: 0.85em;
+    display: table-cell;
+    padding-block: 1em;
+  }
+  table td:before {
+    display: none;
+  }
+  table td:last-child {
+    border-bottom: 1px solid #eee;
   }
 
   .footer {

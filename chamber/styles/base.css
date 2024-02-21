@@ -496,14 +496,29 @@ form {
 /* =================DIRECTORY PAGE STYLES ===================== */
 
 .directory-page-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
   min-height: 90vh;
+  margin-block: 5em;
+}
+
+.view-toggle-btn-container button {
+  border: none;
+  padding: 0.5em 0.75em;
+  cursor: pointer;
+}
+
+.company-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .company-card-container {
   display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
   width: 90%;
   justify-items: center;
   max-width: 600px;
@@ -539,35 +554,38 @@ table {
   width: 100%;
   table-layout: fixed;
 }
-
 table caption {
+  text-align: center;
   font-size: 1.3em;
   margin: 0.5em 0 0.75em;
 }
-
 table thead {
-  border: none;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  /* width: 1px; */
+  display: none;
 }
-
 table tr {
-  border-bottom: 3px solid #ddd;
   display: block;
-  margin-bottom: 0.625em;
+  border: 1px solid #eee;
+  padding: 1em 1em 0.5em;
 }
 
+table tbody tr:nth-of-type(even) {
+  background-color: #ccc;
+}
+
+table tr + tr {
+  margin-top: 0.625em;
+}
 table td {
-  border-bottom: 1px solid #ddd;
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
   font-size: 0.8em;
+  line-height: 1.35em;
 }
 
+table td + td {
+  margin-top: 0.8em;
+}
 table td:last-child {
   border-bottom: 0;
 }
