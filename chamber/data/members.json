@@ -1,76 +1,76 @@
 {
   "companies": [
     {
-      "name": "ABC Consulting",
-      "address": "123 Main Street, Lagos, Nigeria",
-      "phoneNo": "+234 123 456 7890",
-      "url": "https://www.abcconsulting.com.ng",
-      "image": "abc_logo.png",
+      "name": "Zenith Bank",
+      "address": "Zenith Heights, Plot 83, Ajose Adeogun street, Victoria Island, Lagos, Nigeria",
+      "phoneNo": "01 278 7000",
+      "url": "https://www.zenithbank.com/",
+      "image": "../images/zenith.png",
       "membershipLevel": "Gold",
-      "about": "ABC Consulting offers comprehensive business advisory services to companies of all sizes."
+      "about": "Zenith Bank is a Nigerian multinational financial services provider that has since grown to become one of the largest and most profitable banks in Nigeria. "
     },
     {
-      "name": "GreenTech Solutions",
-      "address": "456 Park Avenue, Ikeja, Lagos, Nigeria",
-      "phoneNo": "+234 987 654 3210",
-      "url": "https://www.greentechsolutions.ng",
-      "image": "greentech_logo.png",
+      "name": "Devnode Technologies",
+      "address": "813 Rev. Emmanuel Adubifa St, omole phase 2, Lagos 100001, Lagos",
+      "phoneNo": "+2347081697403",
+      "url": "https://devnode.ng/",
+      "image": "../images/devnode.webp",
       "membershipLevel": "Silver",
-      "about": "GreenTech Solutions specializes in providing sustainable IT solutions for businesses in Nigeria."
+      "about": "Devnode designs and build intelligent, premium, and intuitive web applications, cloud systems, desktop applications, and mobile apps that help start-ups and existing businesses alike streamline processes and generate new revenue streams."
     },
     {
-      "name": "Lagos Builders Ltd",
-      "address": "789 Ocean Drive, Victoria Island, Lagos, Nigeria",
-      "phoneNo": "+234 567 890 1234",
-      "url": "https://www.lagosbuilders.com",
-      "image": "lagosbuilders_logo.png",
+      "name": "Dangote Cement",
+      "address": "Union Marble House 1 Alfred Rewane Road, PMB 40032, Falomo Ikoyi, Lagos, NIGERIA",
+      "phoneNo": "+234-1-460-643",
+      "url": "https://dangotecement.com/",
+      "image": "../images/dangote.png",
+      "membershipLevel": "Gold",
+      "about": "Dangote Cement is a multinational corporation based in Nigeria and is the largest cement producer in Africa."
+    },
+    {
+      "name": "Elbe Pharma",
+      "address": "1a, African Church Close, Ilupeju, Lagos",
+      "phoneNo": "+234 909 0303 030",
+      "url": "https://www.elbepharma.com/",
+      "image": "../images/elbe.png",
       "membershipLevel": "Bronze",
-      "about": "Lagos Builders Ltd is a leading construction company, delivering high-quality projects across Nigeria."
+      "about": "Elbe Pharma Nigeria Limited is a pharmaceutical company based in Nigeria."
     },
     {
-      "name": "Sunshine Pharmaceuticals",
-      "address": "101 Sunshine Street, Surulere, Lagos, Nigeria",
-      "phoneNo": "+234 321 654 0987",
-      "url": "https://www.sunshinepharma.com.ng",
-      "image": "sunshinepharma_logo.png",
-      "membershipLevel": "Gold",
-      "about": "Sunshine Pharmaceuticals is committed to providing affordable and accessible healthcare solutions."
-    },
-    {
-      "name": "Foodies Delight Restaurant",
-      "address": "222 Yummy Avenue, Festac Town, Lagos, Nigeria",
-      "phoneNo": "+234 876 543 2109",
-      "url": "https://www.foodiesdelight.ng",
-      "image": "foodiesdelight_logo.png",
+      "name": "The Place Restaurants",
+      "address": "Plot 38 Block a10 Admiralty Way Lekki Phase 1",
+      "phoneNo": "09041733823",
+      "url": "https://theplace.com.ng/",
+      "image": "../images/the_place.png",
       "membershipLevel": "Silver",
-      "about": "Foodies Delight Restaurant offers a diverse menu of delicious meals in a cozy atmosphere."
+      "about": "The Place is a popular restaurant chain in Nigeria known for its diverse menu and casual dining atmosphere."
     },
     {
-      "name": "Bright Minds Academy",
-      "address": "333 Learning Lane, Agege, Lagos, Nigeria",
-      "phoneNo": "+234 654 321 9876",
-      "url": "https://www.brightmindsacademy.com.ng",
-      "image": "brightminds_logo.png",
+      "name": "King's College",
+      "address": "3, Catholic Mission Street, Tafawa Balewa Square, Lagos",
+      "phoneNo": "09051018885",
+      "url": "https://kingscollegelagos.sch.ng/home",
+      "image": "../images/king's_college.png",
       "membershipLevel": "Bronze",
-      "about": "Bright Minds Academy provides quality education and holistic development for young learners."
+      "about": "King's College Lagos is a prestigious secondary school located in Lagos, founded in 1909 by the British colonial administration. It is one of the oldest and most renowned educational institutions in Nigeria."
     },
     {
-      "name": "Global Shipping Services",
-      "address": "444 Port Road, Apapa, Lagos, Nigeria",
-      "phoneNo": "+234 789 012 3456",
-      "url": "https://www.globalshipping.ng",
-      "image": "globalshipping_logo.png",
+      "name": "Air Peace",
+      "address": "25, Sobo Arobiodu Street GRA, Ikeja, Lagos",
+      "phoneNo": "+234-700-359-24773223",
+      "url": "https://www.flyairpeace.com/",
+      "image": "../images/air_peace.png",
       "membershipLevel": "Gold",
-      "about": "Global Shipping Services offers reliable and efficient logistics solutions for businesses worldwide."
+      "about": "Air Peace is a Nigerian airline based in Lagos known for its relatively large fleet size and a wide network covering major cities within Nigeria and abroad. "
     },
     {
-      "name": "HealthCare Plus Clinic",
-      "address": "555 Wellness Avenue, Ikorodu, Lagos, Nigeria",
-      "phoneNo": "+234 210 987 6543",
-      "url": "https://www.healthcareplusclinic.com.ng",
-      "image": "healthcareplus_logo.png",
+      "name": "Reddington Hospital",
+      "address": "12 Idowu Martins Street, Victoria Island,Lagos",
+      "phoneNo": "09165359769",
+      "url": "https://reddingtonhospital.com/",
+      "image": "../images/reddington.png",
       "membershipLevel": "Silver",
-      "about": "HealthCare Plus Clinic provides comprehensive healthcare services with a focus on patient care and wellness."
+      "about": "Reddington Hospital is a leading healthcare facility located in Lagos, Nigeria. It is renowned for its high-quality medical services and state-of-the-art facilities."
     }
   ]
 }
