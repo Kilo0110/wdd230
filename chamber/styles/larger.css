@@ -12,7 +12,9 @@
 
   .main-navigation__link {
     font-size: clamp(12px, 14px + 1vw, 16px);
-    padding: 0.5em 1em;
+    padding: 0.75em 1.35em;
+    border-radius: 1.5em;
+    text-align: center;
   }
 
   .main-navigation__link span {
@@ -28,12 +30,71 @@
     /* grid-auto-rows: 400px; */
   }
 
+  .photo-gallery-container img {
+    transition: filter 0.5s ease;
+    filter: blur(3px);
+  }
+
+  .photo-gallery-container img:hover {
+    filter: blur(0);
+  }
+
+  .form-page-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .membership-benefits-container {
+    align-items: stretch;
+    max-width: 600px;
+  }
+
   .information-sidebar {
     justify-content: flex-start;
   }
 
   .information-sidebar__card {
     max-width: 300px;
+  }
+
+  .company-table-container table {
+    border: 1px solid red;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    table-layout: fixed;
+  }
+
+  .company-table-container table caption {
+    font-size: 1.5em;
+    margin: 0.5em 0 0.75em;
+  }
+
+  .company-table-container table thead {
+    clip: unset;
+    position: initial;
+    width: 100%;
+  }
+
+  .company-table-container table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 0.35em;
+  }
+
+  .company-table-container table th,
+  .company-table-container table td {
+    padding: 0.625em;
+    text-align: center;
+    display: initial;
+    width: 100%;
+  }
+
+  .company-table-container table th {
+    font-size: 0.85em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
   }
 
   .footer {

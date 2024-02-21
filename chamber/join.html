@@ -60,31 +60,34 @@
       >Logo</a>
       <ul class="main-navigation__links-container">
         <li class="main-navigation__link-item"><a
-            href=""
+            href="./index.html"
             class="main-navigation__link"
-          >Link 1
+          >Home
             <span>&#8594;</span>
           </a></li>
         <li class="main-navigation__link-item"><a
-            href=""
+            href="./discover.html"
             class="main-navigation__link"
-          >Link 2
+          >Discover Us
             <span>&#8594;</span>
           </a></li>
         <li class="main-navigation__link-item"><a
-            href=""
+            href="./join.html"
             class="main-navigation__link"
-          >Link 3
+          >Join Us
             <span>&#8594;</span>
           </a></li>
         <li class="main-navigation__link-item"><a
-            href=""
+            href="./directory.html"
             class="main-navigation__link"
-          >Link 4
+          >Our Directory
             <span>&#8594;</span>
           </a></li>
       </ul>
-      <button class="hamburger-btn">
+      <button
+        class="hamburger-btn"
+        aria-label="menu btn"
+      >
         <span class="hamburger-btn__line"></span>
         <span class="hamburger-btn__line"></span>
         <span class="hamburger-btn__line"></span>
@@ -135,7 +138,8 @@
             id="email"
             name="email"
             required
-            pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+            pattern="[a-zA-Z0-9._%+-]+@\w\.\w$"
+            placeholder="example123@test.edu"
           >
         </div>
 
@@ -200,8 +204,51 @@
           title="Sign Up"
         >Sign Up</button>
       </form>
-      <aside class="membership-benefits">
-
+      <aside class="membership-benefits-container">
+        <h2>Our membership levels</h2>
+        <div class="membership-level-info">
+          <h3>NP Membership</h3>
+          <span>For volunteers. Features</span>
+          <ul>
+            <li>Membership card</li>
+            <li>Priority access to chamber resources</li>
+            <li>Discounted services such as advertising</li>
+            <li>Patnership opportunities between chamber members and sector leaders</li>
+          </ul>
+        </div>
+        <div class="membership-level-info">
+          <h3>Bronze Membership</h3>
+          <span>For SMEs. Features</span>
+          <ul>
+            <li>Everything in <strong>NP Membership</strong></li>
+            <li>Listing in the Chamber's online directory</li>
+            <li>Higher discounted rates for Chamber-sponsored events and services</li>
+            <li>Access to member-only resources such as business templates or guides</li>
+            <li>Recognition on the Chamber's social media platforms</li>
+          </ul>
+        </div>
+        <div class="membership-level-info">
+          <h3>Silver Membership</h3>
+          <span>For larger businesses. Features</span>
+          <ul>
+            <li>Everything in <strong>Bronze Membership</strong></li>
+            <li>Access to benchmarking data or industry reports</li>
+            <li>Access to specialized workshops or seminars tailored for Silver members</li>
+            <li>Enhanced listing in the Chamber's online directory with priority placement</li>
+            <li>Invitation to exclusive networking events with other Silver and Gold members</li>
+          </ul>
+        </div>
+        <div class="membership-level-info">
+          <h3>Bronze Membership</h3>
+          <span>For mutltinational companies. Features</span>
+          <ul>
+            <li>Everything in <strong>Silver Membership</strong></li>
+            <li>Invitation to exclusive receptions or dinners with key stakeholders in the community</li>
+            <li>Premier listing in the Chamber's online directory with featured placement</li>
+            <li>Dedicated support from Chamber staff for specific business needs or inquiries</li>
+            <li>Exclusive access to executive-level roundtable discussions with community leaders</li>
+          </ul>
+        </div>
       </aside>
     </div>
   </main>

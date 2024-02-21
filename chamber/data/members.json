@@ -1,0 +1,76 @@
+{
+  "companies": [
+    {
+      "name": "ABC Consulting",
+      "address": "123 Main Street, Lagos, Nigeria",
+      "phoneNo": "+234 123 456 7890",
+      "url": "https://www.abcconsulting.com.ng",
+      "image": "abc_logo.png",
+      "membershipLevel": "Gold",
+      "about": "ABC Consulting offers comprehensive business advisory services to companies of all sizes."
+    },
+    {
+      "name": "GreenTech Solutions",
+      "address": "456 Park Avenue, Ikeja, Lagos, Nigeria",
+      "phoneNo": "+234 987 654 3210",
+      "url": "https://www.greentechsolutions.ng",
+      "image": "greentech_logo.png",
+      "membershipLevel": "Silver",
+      "about": "GreenTech Solutions specializes in providing sustainable IT solutions for businesses in Nigeria."
+    },
+    {
+      "name": "Lagos Builders Ltd",
+      "address": "789 Ocean Drive, Victoria Island, Lagos, Nigeria",
+      "phoneNo": "+234 567 890 1234",
+      "url": "https://www.lagosbuilders.com",
+      "image": "lagosbuilders_logo.png",
+      "membershipLevel": "Bronze",
+      "about": "Lagos Builders Ltd is a leading construction company, delivering high-quality projects across Nigeria."
+    },
+    {
+      "name": "Sunshine Pharmaceuticals",
+      "address": "101 Sunshine Street, Surulere, Lagos, Nigeria",
+      "phoneNo": "+234 321 654 0987",
+      "url": "https://www.sunshinepharma.com.ng",
+      "image": "sunshinepharma_logo.png",
+      "membershipLevel": "Gold",
+      "about": "Sunshine Pharmaceuticals is committed to providing affordable and accessible healthcare solutions."
+    },
+    {
+      "name": "Foodies Delight Restaurant",
+      "address": "222 Yummy Avenue, Festac Town, Lagos, Nigeria",
+      "phoneNo": "+234 876 543 2109",
+      "url": "https://www.foodiesdelight.ng",
+      "image": "foodiesdelight_logo.png",
+      "membershipLevel": "Silver",
+      "about": "Foodies Delight Restaurant offers a diverse menu of delicious meals in a cozy atmosphere."
+    },
+    {
+      "name": "Bright Minds Academy",
+      "address": "333 Learning Lane, Agege, Lagos, Nigeria",
+      "phoneNo": "+234 654 321 9876",
+      "url": "https://www.brightmindsacademy.com.ng",
+      "image": "brightminds_logo.png",
+      "membershipLevel": "Bronze",
+      "about": "Bright Minds Academy provides quality education and holistic development for young learners."
+    },
+    {
+      "name": "Global Shipping Services",
+      "address": "444 Port Road, Apapa, Lagos, Nigeria",
+      "phoneNo": "+234 789 012 3456",
+      "url": "https://www.globalshipping.ng",
+      "image": "globalshipping_logo.png",
+      "membershipLevel": "Gold",
+      "about": "Global Shipping Services offers reliable and efficient logistics solutions for businesses worldwide."
+    },
+    {
+      "name": "HealthCare Plus Clinic",
+      "address": "555 Wellness Avenue, Ikorodu, Lagos, Nigeria",
+      "phoneNo": "+234 210 987 6543",
+      "url": "https://www.healthcareplusclinic.com.ng",
+      "image": "healthcareplus_logo.png",
+      "membershipLevel": "Silver",
+      "about": "HealthCare Plus Clinic provides comprehensive healthcare services with a focus on patient care and wellness."
+    }
+  ]
+}

@@ -31,12 +31,6 @@
     property="og:image"
     content="https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-67ruAEYmp4c"
   >
-  <script
-    src="https://static.elfsight.com/platform/platform.js"
-    data-use-service-core
-    defer
-  ></script>
-
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -54,7 +48,7 @@
     href="favicon.ico"
     type="image/x-icon"
   >
-  <title>Lagos Chamber of Commerce</title>
+  <title>Lagos Chamber of Commerce || Discover</title>
 </head>
 
 <body>
@@ -102,84 +96,63 @@
   </header>
 
   <main>
-    <section class="hero-section">
-      <h1>Lagos Chamber of Commerce</h1>
-      <a
-        class="hero-call-to-action"
-        href="join.html"
-      >Join the chamber</a>
-    </section>
-    <section class="events-section">
-      <h2>Upcoming Events</h2>
-      <div class="events-list-container">
-        <div class="event">
+    <div class="directory-page-container">
+      <div class="company-card-container">
+        <h1>Our Members</h1>
+        <div class="company-card">
           <img
-            src="./images/apapa_lagos.webp"
-            alt="Drone shot of Apapa Lagos"
-            class="event__img"
+            src=""
+            alt=""
+            class="member-img"
           >
-          <h3 class="event__name">Lorem, ipsum dolor.</h3>
-          <p class="event__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet officiis dicta
-            voluptatem ad quasi
-            consequatur laboriosam natus fugiat doloremque animi impedit ex quibusdam, ipsa voluptate vel illo iste
-            maiores nemo.</p>
-        </div>
-        <div class="event">
-          <img
-            src="./images/lekki.webp"
-            alt="Drone shot of Lekki, Lagos"
-            class="event__img"
-          >
-          <h3 class="event__name">Lorem, ipsum dolor.</h3>
-          <p class="event__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet officiis dicta
-            voluptatem ad quasi
-            consequatur laboriosam natus fugiat doloremque animi impedit ex quibusdam, ipsa voluptate vel illo iste
-            maiores nemo.</p>
+          <h2 class="member-name">Lorem, ipsum.</h2>
+          <p class="member-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque debitis magnam
+            laborum
+            tempore deleniti corporis in ab! Similique, deserunt accusamus.</p>
+          <p class="member-address">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, autem.</p>
+          <div class="card-footer">
+            <table>
+              <thead>
+                <tr>
+                  <td>Membership Level</td>
+                  <td>Phone Number</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Gold</td>
+                  <td>+2341234567890</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
-    </section>
-    <section class="weather-section">
-      <h2>Weather section</h2>
-      <iframe
-        src="https://3f106457c1b74c12b429eafa3723b8a6.elf.site"
-        height="400"
-      ></iframe>
-    </section>
-    <section class="advertisement-section">
-      <h2>Spotlight</h2>
-      <div class="advertisement-container">
-        <div class="advertisement">
-          <img
-            src="./images/lekki_conservation_centre_small.webp"
-            alt="Image of Lekki Conservation Centre"
-            class="advertisement__img"
-          >
-          <h3 class="advertisement__title">Advertisement Title</h3>
-          <p class="advertisement__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, unde incidunt?
-            Aspernatur aliquid quia voluptates porro suscipit sunt molestias nostrum?</p>
-        </div>
-        <div class="advertisement">
-          <img
-            src="./images/1004_apartment_small.webp"
-            alt="Image of 1004 apartments, Lagos"
-            class="advertisement__img"
-          >
-          <h3 class="advertisement__title">Advertisement Title</h3>
-          <p class="advertisement__text">Et, ab ducimus rem nihil id maxime minima quisquam facere expedita velit aut
-            distinctio, porro ex. Reiciendis amet quo nulla!</p>
-        </div>
-        <div class="advertisement">
-          <img
-            src="./images/skaterollers_small.webp"
-            alt="Image of roller skaters in Lagos"
-            class="advertisement__img"
-          >
-          <h3 class="advertisement__title">Advertisement Title</h3>
-          <p class="advertisement__text">Consequatur, reiciendis dicta quas distinctio nobis alias voluptatum impedit?
-            Nulla ipsam sit quidem explicabo ratione quia odio assumenda qui laboriosam.</p>
-        </div>
+      <div class="company-table-container">
+        <table>
+          <caption>Statement Summary</caption>
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Address</th>
+              <th scope="col">Phone</th>
+              <th scope="col">Website</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                scope="row"
+                data-label="Acount"
+              >Visa - 3412</td>
+              <td data-label="Due Date">02/01/2016</td>
+              <td data-label="Amount">$842</td>
+              <td data-label="Period">01/01/2016 - 01/31/2016</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-    </section>
+    </div>
   </main>
 
   <footer class="footer">
@@ -202,6 +175,7 @@
   </footer>
 
   <script src="./scripts/script.js"></script>
+  <script src="./scripts/directory.js"></script>
 </body>
 
 </html>
