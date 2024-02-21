@@ -5,7 +5,7 @@
       "address": "Zenith Heights, Plot 83, Ajose Adeogun street, Victoria Island, Lagos, Nigeria",
       "phoneNo": "01 278 7000",
       "url": "https://www.zenithbank.com/",
-      "image": "../images/zenith.png",
+      "image": "./images/zenith.png",
       "membershipLevel": "Gold",
       "about": "Zenith Bank is a Nigerian multinational financial services provider that has since grown to become one of the largest and most profitable banks in Nigeria. "
     },
@@ -14,7 +14,7 @@
       "address": "813 Rev. Emmanuel Adubifa St, omole phase 2, Lagos 100001, Lagos",
       "phoneNo": "+2347081697403",
       "url": "https://devnode.ng/",
-      "image": "../images/devnode.webp",
+      "image": "./images/devnode.webp",
       "membershipLevel": "Silver",
       "about": "Devnode designs and build intelligent, premium, and intuitive web applications, cloud systems, desktop applications, and mobile apps that help start-ups and existing businesses alike streamline processes and generate new revenue streams."
     },
@@ -23,7 +23,7 @@
       "address": "Union Marble House 1 Alfred Rewane Road, PMB 40032, Falomo Ikoyi, Lagos, NIGERIA",
       "phoneNo": "+234-1-460-643",
       "url": "https://dangotecement.com/",
-      "image": "../images/dangote.png",
+      "image": "./images/dangote.png",
       "membershipLevel": "Gold",
       "about": "Dangote Cement is a multinational corporation based in Nigeria and is the largest cement producer in Africa."
     },
@@ -32,7 +32,7 @@
       "address": "1a, African Church Close, Ilupeju, Lagos",
       "phoneNo": "+234 909 0303 030",
       "url": "https://www.elbepharma.com/",
-      "image": "../images/elbe.png",
+      "image": "./images/elbe.png",
       "membershipLevel": "Bronze",
       "about": "Elbe Pharma Nigeria Limited is a pharmaceutical company based in Nigeria."
     },
@@ -41,7 +41,7 @@
       "address": "Plot 38 Block a10 Admiralty Way Lekki Phase 1",
       "phoneNo": "09041733823",
       "url": "https://theplace.com.ng/",
-      "image": "../images/the_place.png",
+      "image": "./images/the_place.png",
       "membershipLevel": "Silver",
       "about": "The Place is a popular restaurant chain in Nigeria known for its diverse menu and casual dining atmosphere."
     },
@@ -50,7 +50,7 @@
       "address": "3, Catholic Mission Street, Tafawa Balewa Square, Lagos",
       "phoneNo": "09051018885",
       "url": "https://kingscollegelagos.sch.ng/home",
-      "image": "../images/king's_college.png",
+      "image": "./images/king's_college.png",
       "membershipLevel": "Bronze",
       "about": "King's College Lagos is a prestigious secondary school located in Lagos, founded in 1909 by the British colonial administration. It is one of the oldest and most renowned educational institutions in Nigeria."
     },
@@ -59,7 +59,7 @@
       "address": "25, Sobo Arobiodu Street GRA, Ikeja, Lagos",
       "phoneNo": "+234-700-359-24773223",
       "url": "https://www.flyairpeace.com/",
-      "image": "../images/air_peace.png",
+      "image": "./images/air_peace.png",
       "membershipLevel": "Gold",
       "about": "Air Peace is a Nigerian airline based in Lagos known for its relatively large fleet size and a wide network covering major cities within Nigeria and abroad. "
     },
@@ -68,7 +68,7 @@
       "address": "12 Idowu Martins Street, Victoria Island,Lagos",
       "phoneNo": "09165359769",
       "url": "https://reddingtonhospital.com/",
-      "image": "../images/reddington.png",
+      "image": "./images/reddington.png",
       "membershipLevel": "Silver",
       "about": "Reddington Hospital is a leading healthcare facility located in Lagos, Nigeria. It is renowned for its high-quality medical services and state-of-the-art facilities."
     }
